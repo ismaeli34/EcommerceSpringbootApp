@@ -27,6 +27,11 @@ public class UserController {
         return userService.registerNewUser(user);
     }
 
+    @GetMapping({"/test"})
+    public String getUser(){
+        return "Welcome to ecommerce application";
+    }
+
     @GetMapping({"/forAdmin"})
     @PreAuthorize("hasRole('Admin')")
     public String forAdmin(){
