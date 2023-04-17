@@ -1,4 +1,4 @@
-# e-commerce-springboot-application Screenshots
+# e-commerce application  Screenshots
 
 ## Languages and Tools
 
