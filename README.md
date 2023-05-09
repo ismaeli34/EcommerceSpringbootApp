@@ -18,5 +18,17 @@ Ecommerce application is a software program that allows businesses to sell produ
 ## Order Information Screen
 ![Screenshot 2023-04-13 at 12 30 46 PM](https://user-images.githubusercontent.com/17925504/231732898-3ed3e5bc-9bd5-454a-98b0-c0ad61000c1a.png)
 ## Frontend and Backend Communication
-![process](https://user-images.githubusercontent.com/17925504/232761954-a2a637d8-e741-43ba-9ef8-38ff80be1ff6.png)
+![process](https://user-images.githubusercontent.com/17925504/232761954![Screenshot 2023-05-09 at 6 57 56 PM](https://github.com/ismaeli34/e-commerce-springboot-app/assets/17925504/ba0ad213-4f74-42d6-9447-fef02a9d10c1)
+-a2a637d8-e741-43ba-9ef8-38ff80be1ff6.png)
+## To explore documentation,
+run the application and go to http://localhost:8080/swagger-ui.html
+  
+  ![Screenshot 2023-05-09 at 6 58 15 PM](https://github.com/ismaeli34/e-commerce-springboot-app/assets/17925504/e887a701-71b5-45d4-bf87-3f14772a6f0f)
 
+  ![Uploading Screenshot 2023-05-09 at 6.57.56 PM.png…]()
+
+  
+  
+  
+  
+  
