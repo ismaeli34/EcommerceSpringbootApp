@@ -18,9 +18,10 @@ public class OrderDetailService {
 
     private static final String ORDER_PLACED ="Placed";
 
+    private static final String KEY = "";
+
     @Autowired
     private OrderDetailDao orderDetailDao;
-
     @Autowired
     private ProductDao productDao;
 
@@ -90,6 +91,18 @@ public class OrderDetailService {
             orderDetail.setOrderStatus("Delivered");
             orderDetailDao.save(orderDetail);
         }
+
+
+    }
+
+
+
+    public void createTransaction(Double amount){
+        //  amount
+        //  currency
+        //  key
+        //  secretkey
+
 
 
     }

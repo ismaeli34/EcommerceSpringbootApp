@@ -56,7 +56,14 @@ public class ProductService {
 
        return this.productDao.findById(productId).orElseThrow(() -> new ResourceNotFoundException("Product", "Id", productId));
     }
-    
+
+
+    /**
+     * Doubt on isSingleProductCheckout
+     * @param isSingleProductCheckout
+     * @param productId
+     * @return
+     */
     public List<Product> getProductDetails(boolean isSingleProductCheckout, Integer productId){
         if(isSingleProductCheckout && productId !=0){
             //we are going to buy single product

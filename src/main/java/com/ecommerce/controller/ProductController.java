@@ -81,6 +81,12 @@ public class ProductController {
          return new ResponseEntity<ApiResponse>(new ApiResponse("product deleted successfully",true), HttpStatus.OK);
     }
 
+    /**
+     * Doubt
+     * @param isSingleProductCheckout
+     * @param productId
+     * @return
+     */
     @PreAuthorize("hasRole('User')")
     @GetMapping({"/getProductDetails/{isSingleProductCheckout}/{productId}"})
     public List<Product> getProductDetails(@PathVariable(name = "isSingleProductCheckout") boolean isSingleProductCheckout,

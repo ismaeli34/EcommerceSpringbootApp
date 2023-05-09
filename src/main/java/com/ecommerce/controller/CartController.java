@@ -20,6 +20,11 @@ public class CartController {
     @Autowired
     private CartDao cartDao;
 
+    /**
+     * Doubt why getmapping for addtocart in cart
+     * @param productId
+     * @return
+     */
     @PreAuthorize("hasRole('User')")
     @GetMapping({"/addToCart/{productId}"})
     public Cart addToCart(@PathVariable(name = "productId") Integer productId){

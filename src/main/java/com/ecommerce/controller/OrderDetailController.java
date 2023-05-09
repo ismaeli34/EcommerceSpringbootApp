@@ -41,4 +41,13 @@ public class OrderDetailController {
         orderDetailService.markOrderAsDelivered(orderId);
     }
 
+    @PreAuthorize("hasRole('User')")
+    @GetMapping({"/createTransaction/{amount}"})
+    public void createTransaction(@PathVariable(name = "") Double amount){
+
+
+    }
+
+
+
 }
