@@ -1,6 +1,6 @@
 #  Easy Cart Web application - ANGULAR | SPRINGBOOT
 
-Ecommerce application is a software program that allows businesses to sell products or services online through a website or mobile application. It typically includes features such as product catalogs, shopping carts, and order management systems to enable customers to browse, select, purchase, and receive products or services online. This Ecommerce applications can be tailored to specific industries and needs, such as retail, wholesale, and service-based businesses
+Easy Cart Web application is an web application that allows businesses to sell products or services online through a website or mobile application. It typically includes features such as product catalogs, shopping carts, and order management systems to enable customers to browse, select, purchase, and receive products or services online. This Ecommerce applications can be tailored to specific industries and needs, such as retail, wholesale, and service-based businesses
 
 
 ## Languages and Tools
